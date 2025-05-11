@@ -37,7 +37,9 @@ function moveZeroToEnd() {
     arr[zeroPosition] = 0;
     zeroPosition++;
   }
+  return arr
 }
+console.log(moveZeroToEnd(arr))
 //item=0 skip      =>[0, 1, 0, 2, 0, 3, 0, 4, 0, 5, 12, 0]; z=0
 //item=1 a[0]=1    =>[1, 1, 0, 2, 0, 3, 0, 4, 0, 5, 12, 0]; z=1
 //item=0 skip      =>[1, 1, 0, 2, 0, 3, 0, 4, 0, 5, 12, 0]; z=1
