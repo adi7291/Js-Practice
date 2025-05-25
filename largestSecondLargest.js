@@ -22,14 +22,14 @@ console.log(findLargestAndSecondLargest(arr));
 console.log(findLargestAndSecondLargest([]));
 console.log(findLargestAndSecondLargest([100]));
 
-function alternate(arr) {
-  let newArr = [];
-  for (let item in arr) {
-    if (item % 2 !== 0) {
-      newArr.push(arr[item]);
-    }
-  }
-  return newArr;
-}
+// function alternate(arr) {
+//   let newArr = [];
+//   for (let item in arr) {
+//     if (item % 2 !== 0) {
+//       newArr.push(arr[item]);
+//     }
+//   }
+//   return newArr;
+// }
 
-console.log(alternate(arr));
+// console.log(alternate(arr));
