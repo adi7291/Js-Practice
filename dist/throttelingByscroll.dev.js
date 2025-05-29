@@ -14,7 +14,8 @@ var delayedFunction = function delayedFunction() {
   console.log("scroll");
   scrollCount++;
   scrollElement.textContent = "Count-".concat(scrollCount);
-};
+}; //Higher order function which takes a function and add delay(extra feature) in it.
+
 
 var throttle = function throttle(func, delay) {
   var lastCalled = 0;
@@ -29,4 +30,5 @@ var throttle = function throttle(func, delay) {
 };
 
 var throttled = throttle(delayedFunction, 1000);
+ś;
 window.addEventListener("scroll", throttled);
